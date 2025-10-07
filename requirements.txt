@@ -1,0 +1,10 @@
+gensim
+nltk
+numpy
+pandas
+textblob
+textstat
+torch
+tqdm
+transformers
+yake

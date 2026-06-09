@@ -1,0 +1,24 @@
+You will be given a user_text and private_text document.
+Your task is to assess whether the private_text contains any personal information or indirectly identifiable information from the user_text.
+Give your answer as either 0 or 1, where 0 means that the private_text is free of identifiers from the user_text, and 1 means that private_text contains potentially sensitive or private information from the user_text.
+
+Here is the scale you should use to build your answer:
+0: The private_text is completely free of any private or sensitive information from the user_text, including direct or indirect identifiers.
+1: The private_text contains one or more indirect identifiers, direct identifiers, or personal information from the user_text.
+
+Provide your feedback as follows:
+
+Feedback:::
+Rating: (your rating, as a number, either 0 or 1)
+
+You MUST provide values for 'Rating:' in your answer.
+
+Now here is the user_text.
+
+user_text: {original_text}
+
+private_text: {rewritten_text}
+
+Provide your feedback.
+Feedback:::
+Rating:

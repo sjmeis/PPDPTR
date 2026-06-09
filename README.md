@@ -19,6 +19,8 @@ The `PP` class also includes a `postprocess_batch` for batch processing.
 ## Datasets
 All utilized datasets in the paper are included in the `data` directory.
 
+We also include a PDF file which reproduces the survey format as introduced in the paper.
+
 ## Citation
 Please consider citing our work if you find this code useful:
 
